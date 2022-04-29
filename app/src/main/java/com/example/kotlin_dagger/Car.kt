@@ -16,6 +16,7 @@ class Car
 
     fun start(){
         engine.start()
+        wheels.tires.startTires()
         Log.i("mag2851","driving....")
     }
 
